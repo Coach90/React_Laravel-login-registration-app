@@ -1,0 +1,37 @@
+.tabs-sec {
+    padding: 50px;
+}
+
+.tabs-sec .nav-tabs {
+    border: none;
+    display: table;
+    width: 100%;
+    background-color: #ffebce;
+    --bs-nav-tabs-border-width: 0px;
+}
+
+.tabs-sec .nav-tabs li {
+    display: inline-block;
+}
+
+.tabs-sec .nav-tabs .nav-link {
+    color: #10233c;
+    padding: 10px 30px;
+}
+
+.tabs-sec .nav-tabs .nav-item:first-child button {
+    border-left: 1px solid #ffebce;
+}
+
+.tabs-sec .nav-tabs .nav-link.active {
+    border: none;
+    border-top: 3px solid #10233c;
+    border-radius: 0;
+    font-weight: 600;
+}
+
+.tabs-sec .tab-content {
+    border: 1px solid #ffebce;
+    padding: 20px;
+    border-top: none;
+}

@@ -1,0 +1,11 @@
+.addtruck-form {
+    padding: 70px 40px;
+}
+
+.addtruck-form .dark-btn {
+    clear: both;
+}
+
+.addtruck-form .form-group label {
+    margin-bottom: 10px;
+}

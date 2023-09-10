@@ -1,0 +1,41 @@
+form label {
+    border-color: #10233c;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+
+form .form-group {
+    margin-bottom: 22px;
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+
+form .form-group.width_50 {
+    width: 50%;
+}
+
+form .form-group.width_66 {
+    width: 66.66%;
+}
+
+form .form-group.width_100 {
+    width: 100%;
+}
+
+form .form-group .border-danger {
+    border-color: #F4801F !important;
+}
+
+form .form-control,
+form .form-select {
+    height: 48px;
+    border-radius: 0;
+}
+
+form .form-control:focus,
+form .form-select:focus {
+    box-shadow: none;
+    outline: none;
+}

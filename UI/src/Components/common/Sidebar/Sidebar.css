@@ -1,0 +1,87 @@
+.sidebar {
+    background-color: #10233c;
+    padding: 40px 25px;
+    height: 100vh;
+    position: fixed;
+    width: inherit;
+}
+
+.sidebar ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.sidebar ul li a {
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+    padding: 15px 0;
+    border-bottom: 1px solid #6f6f6f;
+    color: #fff;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+.sidebar ul li a.active {
+    color: #F4801F;
+}
+
+.sidebar ul li .card {
+    background-color: transparent;
+    padding: 0;
+}
+
+.sidebar ul li .card>a {
+    font-size: 18px;
+    padding-left: 30px;
+    position: relative;
+    font-weight: 500;
+}
+
+.sidebar ul li .card>a::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #F4801F;
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.sidebar ul li a>.bi-chevron-down {
+    position: absolute;
+    right: 0;
+}
+
+.sidebar ul li a i {
+    color: #F4801F;
+    margin-right: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover {
+    color: #F4801F;
+}
+
+.sidebar ul li a>span {
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar ul li a:hover span {
+    margin-left: 10px;
+}
+
+.sidebar ul li a:hover i {
+    color: #fff;
+}
+
+@media(min-width:992px) {
+    .sidebar ul li a {
+        font-size: 20px;
+    }
+}

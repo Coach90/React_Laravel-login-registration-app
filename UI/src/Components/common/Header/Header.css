@@ -1,0 +1,25 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    padding: 0 15px;
+    background-color: #f4f4f4;
+}
+
+header .navbar-brand {
+    margin: 0;
+    padding: 0;
+}
+
+header .dropdown .dropdown-toggle {
+    padding: 6px 8px;
+}
+
+header .dropdown .dropdown-menu {
+    right: 0;
+    left: auto;
+}
+
+header .site-logo {
+    width: 200px;
+}

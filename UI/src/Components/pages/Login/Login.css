@@ -1,0 +1,39 @@
+.login-form .dark-btn {
+    margin: 0 5px;
+}
+
+.login-form .fgt-btn {
+    clear: both;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+
+.login-form .fgt-btn a {
+    color: #F4801F;
+}
+
+.login-form form {
+    position: relative;
+}
+
+.login-form form .d-flex.error_p {
+    bottom: 60px;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 18px;
+    color: #10233c;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0px 0px 5px #fff, 0px 0px 5px #614ad3;
+    }
+    to {
+        text-shadow: 0px 0px 20px #fff, 0px 0px 20px #614ad3;
+    }
+}
